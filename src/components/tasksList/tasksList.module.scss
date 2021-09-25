@@ -1,0 +1,30 @@
+.tasksList {
+  display: flex;
+  flex-direction: column;
+  margin-bottom:20px;
+  color: #5B5B5B;
+  font-size: 20px;
+
+  h2 {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin:15px;
+  }
+  &_header {
+    display: flex;
+  }
+  &_content {
+    margin: 5% 5%;
+  }
+  &_action {
+    cursor: pointer;
+    color: #FFFFFF;
+    background: #5B5B5B;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin: 10px;
+    width: 100%;
+    border: none;
+  }
+}
